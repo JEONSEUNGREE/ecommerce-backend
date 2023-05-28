@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.ecommerce.EcommerceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-28T06:12:23" hostname="reeui-MacBookPro.local" time="0.839">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.ecommerce.EcommerceApplicationTests" time="0.839"/>
+  <system-out><![CDATA[15:12:21.834 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ecommerce.EcommerceApplicationTests]: EcommerceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:12:21.933 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ecommerce.EcommerceApplication for test class com.example.ecommerce.EcommerceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-05-28T15:12:22.334+09:00  INFO 2694 --- [    Test worker] c.e.ecommerce.EcommerceApplicationTests  : Starting EcommerceApplicationTests using Java 17.0.7 with PID 2694 (started by a in /Users/a/WORKSPACE/ecommerce-backend)
+2023-05-28T15:12:22.335+09:00  INFO 2694 --- [    Test worker] c.e.ecommerce.EcommerceApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-05-28T15:12:23.436+09:00  INFO 2694 --- [    Test worker] c.e.ecommerce.EcommerceApplicationTests  : Started EcommerceApplicationTests in 1.349 seconds (process running for 2.507)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
