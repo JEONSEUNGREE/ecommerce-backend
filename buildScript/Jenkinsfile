@@ -7,8 +7,8 @@ node {
   }
   stage('========== Push image ==========') {
     docker.withRegistry('https://registry.hub.docker.com', '1d20a754-2260-44cf-8078-860eedcf7fe6') {
-      app.push("${env.BUILD_NUMBER}") # 빌드 번호
-      app.push("latest") # 태그 정보
+      app.push("${env.BUILD_NUMBER}")
+      app.push("latest")
     }
   }
 }
