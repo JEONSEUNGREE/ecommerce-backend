@@ -10,4 +10,10 @@ public class HelloController {
     public String home(){
         return "Welcome Home Controller";
     }
+
+    @GetMapping("/cicd-test")
+    public String cicdTest(){
+        return "cicd-test";
+    }
+
 }
