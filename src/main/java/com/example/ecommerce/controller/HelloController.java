@@ -11,9 +11,4 @@ public class HelloController {
         return "Welcome Home Controller";
     }
 
-    @GetMapping("/cicd-test")
-    public String cicdTest(){
-        return "cicd-test";
-    }
-
 }
